@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Elizaveta Semenova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <button class="openbtn" onclick="openNav()">Menu</button>
+</header>
+
+<div id="mySidebar" class="sidebar">
+    <div class="closebtn" onclick="closeNav()">×</div>
+    <div><b>Menu</b></div>
+    <div class="link-text"><a href="index.html">About</a></div>
+    <div class="link-text"> <a href="photos.html">Photos </a></div>
+    <div class="link-text"><a href="contact.html"> Contact me</a></div>
+    <div></div>
+    <div><button class="donatebtn"> Donate</button> </div>
+</div>
+
+<div id="main">
+    <div class="home-left flex items-center">
+        <h4 class="popping">Hi, I'm</h4>
+        <h1 class="t-white">Elizaveta Semenova</h1>
+        <a href="#" target="_blank"><button
+                class="btn">Resume</button></a>
+    </div>
+    <div class="home-right flex items-center">
+        <div class="circle flex items-center" id="mainimage">
+            <img src="./images/i.jpg" alt="">
+        </div>
+    </div>
+
+    <p>I'm <b>Elizaveta Semenova</b>.
+        Right now I'm 3rd year bachelor student of Cybersecurity track at Innopolis University. </p>
+    <p><u>More information about me you can find in my resume.</u></p>
+</div>
+
+
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "200px";
+        document.getElementById("main").style.marginLeft = "200px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+
+</body>
+</html>
+

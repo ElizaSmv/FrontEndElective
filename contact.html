@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Elizaveta Semenova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <button class="openbtn" onclick="openNav()">Menu</button>
+</header>
+
+<div id="mySidebar" class="sidebar">
+    <div class="closebtn" onclick="closeNav()">×</div>
+    <div><b>Menu</b></div>
+    <div class="link-text"><a href="index.html">About</a></div>
+    <div class="link-text"> <a href="photos.html">Photos </a></div>
+    <div class="link-text"><a href="contact.html"> Contact me</a></div>
+    <div></div>
+    <div><button class="donatebtn"> Donate</button> </div>
+</div>
+
+<div id="main">
+    <h2>My contacts</h2>
+    <p></p>
+    <h4>You can contact me via Telegram or using my phone number.</h4>
+    <p></p>
+    <ul style="margin-block-start: 0;">
+        <li><a href="https://t.me/eliza_smv" id="tg-link">
+            <img src ="/images/telegram-logo.jpg" height="30px" /></a> Telegram  .</li>
+        <li><a href="https://instagram.com/eliza_smv/" id="insta-link">
+            <img src ="/images/inst.png" height="30px" /></a> Instagram  .</li>
+    </ul>
+    <p></p>
+    <p><img src ="/images/phone.jpg" height="30px" /> My phone number: <a href="tel:+79774984921">8-977-498-49-21</a> </p>
+    <p></p>
+    <h2>Attention! This page can't show `navbar` for now, so <a href="index.html">click here for coming back</a>. </h2>
+</div>
+
+
+
+<div class="container">
+    <form>
+        <h2> GET IN TOUCH </h2>
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+
+        <textarea id="message" rows="4" placeholder="Write Something"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+</body>
+</html>

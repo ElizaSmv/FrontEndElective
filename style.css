@@ -1,0 +1,305 @@
+
+
+/*#navbar {*/
+/*    line-height: 4rem;*/
+/*    position: sticky;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: 100;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*#navbar ul {*/
+/*    list-style: none;*/
+/*}*/
+
+/*#navbar ul li {*/
+/*    margin: 0 1rem;*/
+/*}*/
+
+/*#navbar ul li a {*/
+/*    text-decoration: none;*/
+/*    padding: 0.5rem 0.9rem;*/
+
+/*}*/
+
+/*.right {*/
+/*    display: none;*/
+/*}*/
+
+/*.checkBtn {*/
+/*    display: none;*/
+/*}*/
+
+/*#check {*/
+/*    display: none;*/
+/*}*/
+
+/*.nav-col a:hover {*/
+/*    border-radius: .4rem;*/
+/*    color: #1f1f38;*/
+/*    background-color: #fff;*/
+/*}*/
+
+.home-left,
+.home-right {
+    width: 48%;
+    padding: 2rem;
+}
+
+.home-right {
+    padding: 0;
+}
+
+
+.home-left h1 {
+    font-size: 2.5rem;
+}
+
+.home-right {
+    position: relative;
+}
+
+.home-right img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    border-radius: 62%;
+    height: 100%;
+}
+
+.circle {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    padding: .5rem;
+    position: relative;
+}
+
+/* About Section */
+.about-left,
+.about-right {
+    width: 48%;
+}
+
+.about-right {
+    padding-right: 4rem;
+}
+
+.aboout-left {
+    position: relative;
+}
+
+.about-left img {
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.about-content p {
+    margin-bottom: 2rem;
+}
+
+/*Contact form*/
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: "Poppins", sans-serif;*/
+/*}*/
+
+.container {
+    background-color: #ebe6ea;
+    /*display: flex;*/
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+form {
+    background-color: #ddabfa;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+form h2 {
+    text-align: center;
+    color: #403d58;
+    margin-bottom: 20px;
+}
+
+form input, textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #eef1f6;
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+}
+
+form button {
+    background: white;
+    color: #403d58;
+    border: 1px solid #403d58;
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    transition: all .5s ease-in;
+}
+
+form button:hover {
+    border: 1px solid #403d58;
+    background: #403d58;
+    color: white;
+}
+
+/*sidebar */
+
+header {
+    background-color: #403d58;
+    height: 50px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ddabfa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar div {
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: "Apple Chancery", sans-serif;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+    color: #ddabfa;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 2px solid #ddabfa;
+    border-radius: 0.4rem;
+    background: #58557c;
+    font-family: Verdana, sans-serif;
+}
+
+#main {
+    transition: margin-left .5s;
+    background-color: #ebe6ea;
+    font-family: "Apple Chancery", sans-serif;
+    padding: 10px 50px;
+}
+
+.link-text a {
+    color: black;
+    text-decoration: none;
+}
+
+.link-text a:hover{
+    background: none;
+    color: #4f3268;
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #403d58;
+    cursor: pointer;
+    padding: 0.75rem 1.2rem;
+    border: 2px solid #403d58;
+    border-radius: 0.4rem;
+    background: transparent;
+}
+
+.btn:hover {
+    background-color: #efe9df;
+}
+
+.donatebtn {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #403d58;
+    cursor: pointer;
+    padding: 0.75rem 1.2rem;
+    border: 2px solid #403d58;
+    border-radius: 0.4rem;
+    background: #edd4ff;
+}
+
+.donatebtn:hover {
+    background-color: #ebe6ea;
+}
+
+.home-left,
+.home-right {
+    width: 48%;
+    padding: 2rem;
+}
+
+.home-left h4 {
+    margin: 1rem 0 1rem 3px;
+    font-size: 1.2rem;
+}
+
+.home-left h1 {
+    font-size: 2.5rem;
+}
+
+.home-right img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    border-radius: 62%;
+    height: 100%;
+}
+
+.circle {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    padding: .5rem;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
